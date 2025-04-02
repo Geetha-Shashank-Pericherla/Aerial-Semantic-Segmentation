@@ -7,9 +7,13 @@ This repository provides a **U-Net** model implementation for **semantic segment
 
 ## 📂 Repository Structure
 ```bash 
+<<<<<<< HEAD
 📂 aerial-semantic-segmentation 
  │── 📂 data/
  │── 📂 models/ # Trained model weights
+=======
+📂 aerial-semantic-segmentation │── 📂 models/ # Trained model weights
+>>>>>>> 7827e88be47c4253a423eafece390048913b008a
  │── 📂 notebooks/ # Jupyter notebook for visualization
  │── 📂 src/ # Source code
  │ │── dataset.py # Data loading
@@ -21,6 +25,7 @@ This repository provides a **U-Net** model implementation for **semantic segment
  │── 📜 README.md # Documentation
  │── 📜 .gitignore # Ignore large files
 ```
+<<<<<<< HEAD
 
 ## Table of Contents  
 - [Aerial Semantic Segmentation using U-Net in PyTorch](#aerial-semantic-segmentation-using-u-net-in-pytorch)
@@ -48,6 +53,8 @@ The dataset used is the **Semantic Drone Dataset**, which contains:
 - **Original aerial images** (JPG format)  
 - **Semantic label images** (PNG format)  
 - **Class dictionary CSV** mapping labels to RGB colors  
+=======
+>>>>>>> 7827e88be47c4253a423eafece390048913b008a
 
 ## 🚀 Installation
 ### 1️⃣ Clone the Repository
@@ -56,6 +63,7 @@ git clone https://github.com/yourusername/aerial-semantic-segmentation.git
 cd aerial-semantic-segmentation
 ```
 
+<<<<<<< HEAD
 ### Install Dependencies:
 To set up the environment, install the required dependencies:
 ```bash
@@ -110,4 +118,24 @@ After training, the model is evaluated using:
 - U-Net Paper
 - Semantic Drone Dataset
 - PyTorch Documentation
+=======
+2️⃣ Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+📊 Dataset
+The dataset consists of aerial images with labeled masks. Update dataset.py with the correct paths before training.
+🏋️ Training
+Run the training script:
+```bash
+python src/train.py
+```
+
+🎯 Prediction
+Run the model inference script:
+```bash
+python src/predict.py
+```
+>>>>>>> 7827e88be47c4253a423eafece390048913b008a
 
