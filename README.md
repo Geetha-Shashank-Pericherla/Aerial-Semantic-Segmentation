@@ -6,7 +6,7 @@
 This repository provides a **U-Net** model implementation for **semantic segmentation** of aerial images using **PyTorch**. The model is trained on aerial images with multiple classes such as roads, buildings, vegetation, etc.
 
 ## 📂 Repository Structure
-
+```bash 
 📂 aerial-semantic-segmentation │── 📂 models/ # Trained model weights
  │── 📂 notebooks/ # Jupyter notebook for visualization
  │── 📂 src/ # Source code
@@ -18,25 +18,33 @@ This repository provides a **U-Net** model implementation for **semantic segment
  │── 📜 requirements.txt # Required Python libraries
  │── 📜 README.md # Documentation
  │── 📜 .gitignore # Ignore large files
+```
 
 ## 🚀 Installation
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/yourusername/aerial-semantic-segmentation.git
 cd aerial-semantic-segmentation
+```
 
 2️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 📊 Dataset
 The dataset consists of aerial images with labeled masks. Update dataset.py with the correct paths before training.
 🏋️ Training
 Run the training script:
+```bash
 python src/train.py
+```
 
 🎯 Prediction
 Run the model inference script:
+```bash
 python src/predict.py
+```
 
 📸 Results
 The model predicts segmentation maps, which can be visualized in results/.
