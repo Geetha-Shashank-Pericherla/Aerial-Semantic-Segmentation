@@ -1,3 +1,5 @@
+📜 README.md (Detailed Documentation)
+
 # Aerial Semantic Segmentation using U-Net in PyTorch
 
 ## 📌 Overview
@@ -38,13 +40,3 @@ python src/predict.py
 
 📸 Results
 The model predicts segmentation maps, which can be visualized in results/.
-📝 Author
-Your Name
-
-
-Your Contact Info
-
-
-Your LinkedIn/GitHub
-
-
