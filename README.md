@@ -7,13 +7,9 @@ This repository provides a **U-Net** model implementation for **semantic segment
 
 ## 📂 Repository Structure
 ```bash 
-<<<<<<< HEAD
 📂 aerial-semantic-segmentation 
  │── 📂 data/
  │── 📂 models/ # Trained model weights
-=======
-📂 aerial-semantic-segmentation │── 📂 models/ # Trained model weights
->>>>>>> 7827e88be47c4253a423eafece390048913b008a
  │── 📂 notebooks/ # Jupyter notebook for visualization
  │── 📂 src/ # Source code
  │ │── dataset.py # Data loading
@@ -25,7 +21,6 @@ This repository provides a **U-Net** model implementation for **semantic segment
  │── 📜 README.md # Documentation
  │── 📜 .gitignore # Ignore large files
 ```
-<<<<<<< HEAD
 
 ## Table of Contents  
 - [Aerial Semantic Segmentation using U-Net in PyTorch](#aerial-semantic-segmentation-using-u-net-in-pytorch)
@@ -49,21 +44,20 @@ This repository provides a **U-Net** model implementation for **semantic segment
 Semantic segmentation is a deep learning technique that assigns a class label to every pixel in an image. This project uses **U-Net**, a widely used architecture for segmentation tasks. The goal is to train a model that can identify different objects in aerial images, such as **buildings, trees, roads, and vehicles**.
 
 ## Dataset  
+- [Semantic Segmentation Dataset](https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset/data)
+
 The dataset used is the **Semantic Drone Dataset**, which contains:  
 - **Original aerial images** (JPG format)  
 - **Semantic label images** (PNG format)  
 - **Class dictionary CSV** mapping labels to RGB colors  
-=======
->>>>>>> 7827e88be47c4253a423eafece390048913b008a
 
 ## 🚀 Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/aerial-semantic-segmentation.git
-cd aerial-semantic-segmentation
+git clone https://github.com/Geetha-Shashank-Pericherla/Aerial-Semantic-Segmentation.git
+cd Aerial-Semantic-Segmentation
 ```
 
-<<<<<<< HEAD
 ### Install Dependencies:
 To set up the environment, install the required dependencies:
 ```bash
@@ -78,7 +72,7 @@ pip install torch torchvision segmentation-models-pytorch numpy pandas matplotli
 1. Run the Notebook
 Open and execute semantic_segmentation.ipynb to train the model and evaluate its performance.
 
-2. Training
+2. **Training**
 To train the model, run:
 ```bash
 python train.py
@@ -115,27 +109,7 @@ After training, the model is evaluated using:
 
 
 ## References
-- U-Net Paper
-- Semantic Drone Dataset
-- PyTorch Documentation
-=======
-2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-📊 Dataset
-The dataset consists of aerial images with labeled masks. Update dataset.py with the correct paths before training.
-🏋️ Training
-Run the training script:
-```bash
-python src/train.py
-```
-
-🎯 Prediction
-Run the model inference script:
-```bash
-python src/predict.py
-```
->>>>>>> 7827e88be47c4253a423eafece390048913b008a
+- [U-Net Paper](https://arxiv.org/abs/1505.04597)
+- [Semantic Drone Dataset](https://www.kaggle.com/datasets/bulentsiyah/semantic-drone-dataset/data)
+- [PyTorch Documentation](https://pytorch.org/docs/stable/index.html)
 
