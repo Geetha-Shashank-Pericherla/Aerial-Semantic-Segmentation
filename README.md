@@ -51,6 +51,10 @@ The dataset used is the **Semantic Drone Dataset**, which contains:
 - **Semantic label images** (PNG format)  
 - **Class dictionary CSV** mapping labels to RGB colors  
 
+### Demo Images and their segmentation masks:
+![Semantic masks](https://github.com/Geetha-Shashank-Pericherla/Aerial-Semantic-Segmentation/blob/main/results/example_images.png)
+
+
 ## 🚀 Installation
 ### 1️⃣ Clone the Repository
 ```bash
@@ -106,6 +110,12 @@ After training, the model is evaluated using:
 ## Results
 - The model segments aerial images into different classes.
 - Sample outputs include original images, ground truth masks, and predicted masks.
+
+### Sample Image
+![Original Image](https://github.com/Geetha-Shashank-Pericherla/Aerial-Semantic-Segmentation/blob/main/results/validation_image.png)
+
+### Output mask for each class:
+![Output masks](https://github.com/Geetha-Shashank-Pericherla/Aerial-Semantic-Segmentation/blob/main/results/output_mask_for_each_class.png)
 
 
 ## References
